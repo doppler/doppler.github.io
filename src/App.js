@@ -3,10 +3,11 @@ import ColorWheel from "./components/ColorWheel";
 import "./App.scss";
 
 const App = () => {
+  const numberOfRadials = 13;
   return (
     <div className="App">
-      <ColorWheel numberOfRadials={55} />
-      <ColorWheel numberOfRadials={55} reverse />
+      <ColorWheel {...{ numberOfRadials }} />
+      <ColorWheel {...{ numberOfRadials, reverse: true }} />
       <About />
     </div>
   );
