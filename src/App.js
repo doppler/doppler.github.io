@@ -1,6 +1,6 @@
 import React from "react";
 import ColorWheel from "./components/ColorWheel";
-import "./App.scss";
+import "./App.css";
 
 const App = () => {
   const numberOfRadials = 13;

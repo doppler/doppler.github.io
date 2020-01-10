@@ -1,5 +1,5 @@
 import React from "react";
-import "./ColorWheel.scss";
+import "./ColorWheel.css";
 
 export const ColorWheel = ({ numberOfRadials, reverse }) => {
   return (

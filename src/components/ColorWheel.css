@@ -14,13 +14,15 @@
   width: 400vmax;
   height: 400vmax;
   animation: spin 300s linear infinite;
-  &.reverse {
-    animation-direction: reverse;
-    top: calc(100vh - 200vmax - 3em);
-    left: calc(100vw - 200vmax - 3em);
-    transform: translateY(200px);
-  }
 }
+
+.ColorWheel.reverse {
+  animation-direction: reverse;
+  top: calc(100vh - 200vmax - 3em);
+  left: calc(100vw - 200vmax - 3em);
+  transform: translateY(200px);
+}
+
 .Radial {
   position: absolute;
   top: 0;
